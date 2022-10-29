@@ -2,7 +2,7 @@ import React from "react";
 import "./CitySearch.css";
 
 const ForecastWeather = ({ data }) => {
-  console.log(data);
+//   console.log(data);
   const forecast = data?.forecastday?.[0]?.astro;
   return (
     <div>
