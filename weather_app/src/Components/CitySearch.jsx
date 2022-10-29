@@ -28,7 +28,7 @@ const handleSubmit = () =>{
           placeholder="What city?"
           onChange={(e => setCity(e.target.value))}
         />
-        <button onClick={handleSubmit}>Submit</button>
+        <button className="icon" onClick={handleSubmit}>🔍</button>
       </div>
 
       <select className="dropdown" onChange={(e => setWeather(e.target.value))}>
