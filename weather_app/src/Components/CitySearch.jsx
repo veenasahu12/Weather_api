@@ -46,9 +46,7 @@ const CitySearch = (props) => {
       </select>
 
       {weather === "current" && <CurrentWeather data={data?.data} />}
-      {weather === "forecast" && (
-        <ForecastWeather data={data?.data?.forecast} />
-      )}
+      {weather === "forecast" && <ForecastWeather data={data?.data?.forecast} />}
     </div>
   );
 };

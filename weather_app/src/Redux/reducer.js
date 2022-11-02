@@ -12,8 +12,8 @@ const initialState = {
   }
 };
 
-export const reducer = (store = initialState, { type, payload }) => {
-  // console.log(payload , type)
+export const reducer = (store = initialState, {type, payload }) => {
+  // console.log(payload )
   switch (type) {
     case FETCH_WEATHERAPI_DATA_REQUEST: {
       return {
