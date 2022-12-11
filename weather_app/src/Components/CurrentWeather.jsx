@@ -2,8 +2,8 @@ import React from "react";
 import "./CitySearch.css";
 
 const CurrentWeather = ({ data }) => {
-//   console.log(data);
   const location = data?.location;
+  
   return (
     <div>
       <div className="maindiv">
