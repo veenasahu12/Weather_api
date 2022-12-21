@@ -21,5 +21,5 @@ Weather app which show current and forecast weather . It is an Individual Projec
 
 ### Netlify Link
 
-https://weathercurrentforecastapp.netlify.app/
+https://weatherapp124.netlify.app/
  
